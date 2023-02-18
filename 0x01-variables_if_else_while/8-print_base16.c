@@ -21,7 +21,7 @@ int main(void)
 		(c <= 'f') {
 			putchar(c);
 			c++;
-		}	
+		}
 	putchar('\n');
 	return (0);
 }	
