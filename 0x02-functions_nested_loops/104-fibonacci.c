@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int court;
+	int count;
 	unsigned long fib1 = 1, sum;
 	unsigned long fib1_half1, fib1_half2, fib2_half1, fib2_half1, fib2_half2;
 	unsigned long half1, half2;
