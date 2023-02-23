@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_number - Prints an integer.
- * @n: The integer to prints.
+ * print_number - Prints an integer
+ * @n: The integer to prints
  * Return: Nothing!
  */
 
