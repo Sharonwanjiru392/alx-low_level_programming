@@ -40,6 +40,7 @@ int main(void)
 			if (password[index] >= (33 + diff_half1))
 			{
 				password[index] -= diff_half1;
+
 				break;
 			}
 		}
@@ -58,6 +59,6 @@ int main(void)
 			}
 		}
 	}
-	print ("%s",password);
+	print ("%s", password);
 	return (0);
 }
