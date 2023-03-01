@@ -7,7 +7,7 @@
  * @src: The source string
  * Return: A pointer to the resulting string dest
  */
-int *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 
 {
 	int dlen = 0, i;
