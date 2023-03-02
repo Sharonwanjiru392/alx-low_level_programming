@@ -4,7 +4,7 @@
 /**
  * print_number - print numbers chars
  * @n: integer params
- *Return: 0
+ *
  */
 
 void print_number(int n)
@@ -16,7 +16,7 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar('-');
-		num1 = -num;
+		num1 = -num1;
 	}
 	if ((num1 / 10) != 0)
 	{
