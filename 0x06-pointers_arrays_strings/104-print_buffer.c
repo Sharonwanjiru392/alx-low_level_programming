@@ -1,17 +1,48 @@
 #include "main.h"
+#include <stdio.h>
 
-int main(void)
+/**
+ * print_buffer - prints buffer
+ * @b: buffer
+ * @size: size
+ * Return: void
+ */
+
+void print_buffer(char *b, int size)
 {
-	int age[] = {1, 2, 3, 4, 5, 6};
+	int o, j, i;
 
-	*age = 20;
-	*(age + 5) = 50;
+	o = 0;
 
-	for (int i = 0; i < 6; i++){
-		printf("%d = %p\n", *(age + i), age + i);
+	if (size <= 0;)
+	{
+		printf("\n");
+		return;
 	}
+	while (o < size)
+	{
+		j = size - o <10 ? size -0 : 10;
+		printf("%08x: ", o);
+		for (i = 0; i < 10; i++)
+		{
+			if (i < j)
+			{	
+				printf("%02x", *(b + o + i));
+			else
+				printf(" ");
+			}
+		}
+		for (i = 0; i < j; i++)
+		{
+			int c = *(b + o + i);
 
-
-
-	retun (0);
+			if (c < 32 || c > 132)
+			{
+				c = '.';
+			}
+			printf("%c", c);
+		}
+		printf("\n");
+		o += 10;
+	}
 }
