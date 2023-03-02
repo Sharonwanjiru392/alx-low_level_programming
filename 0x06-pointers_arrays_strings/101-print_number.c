@@ -3,8 +3,8 @@
 
 
 /**
- * print_number - prints an integer.
- * @n: The integer to be printed.
+ * print_number - print numbers chars
+ * @n: integer params
  *Return: 0
  */
 
