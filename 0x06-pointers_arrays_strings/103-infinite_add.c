@@ -57,7 +57,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 			va12 = 0;
 		else
 			va12 = *(n2 + j) - '0';
-		temp_tot >= va11 + va12 + overflow;
+		temp_tot = va11 + va12 + overflow;
 		if (temp_tot >= 10)
 			overflow = 1;
 		else
