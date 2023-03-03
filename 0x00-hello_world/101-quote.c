@@ -1,4 +1,4 @@
-#include <unistid.h>
+#include <unistd.h>
 
 /**main - prints "add that piece of art is useful" - Dora korpar, 2015-10-19",
  * followed by a newline, to standard error.
