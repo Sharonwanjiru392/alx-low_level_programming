@@ -1,7 +1,7 @@
 #iclude "main.h"
 
 /**
- * print_chessbord - Entry point
+ * print_chessboard - Entry point
  * @a: array
  * Return: Alawys 0 (success
  */
