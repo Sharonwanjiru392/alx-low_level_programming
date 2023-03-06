@@ -3,7 +3,7 @@
 /**
  * print_chessboard - Entry point
  * @a: array
- * Return: Alawys 0 (success
+ * Return: Alawys 0 (success)
  */
 void print_chessboard(char (*a)[8])
 {
@@ -13,6 +13,6 @@ void print_chessboard(char (*a)[8])
 	{
 		for (n = 0; n < 8; n++)
 			_putchar(a[i][n]);
-		return('\n');
+		_putchar('\n');
 	}
 }
