@@ -3,10 +3,10 @@
 /**
  * _memcpy - Entry point
  * @dest: input
- * @stc: input
+ * @src: input
  * @n: input
  * Return: Alawys 0 (success)
- * */
+ */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
