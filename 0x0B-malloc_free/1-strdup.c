@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stblib.h>
+#include <stdlib.h>
 
 /**
  * _strdup - Duplicate a string
