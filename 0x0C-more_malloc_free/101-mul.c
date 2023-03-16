@@ -52,7 +52,7 @@ void errors(void)
  * @argc: number of arguments
  * @argv: array of arguments
  *
- * REturn: always 0 (Success)
+ * Return: always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
@@ -98,4 +98,3 @@ int main(int argc, char *argv[])
 	free(result);
 	return (0);
 }
-
