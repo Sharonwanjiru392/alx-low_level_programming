@@ -1,10 +1,10 @@
-#include "variadic_functions.h"
+#include <stdlib.h>
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * print_*11 - prints anything.
+ * print_*ll - prints anything.
  * @format: a list of types of agruments passed to the function.
- * Return: no return.
+ * Return: void.
  */
 void print_all(const char * const format, ...)
 {
