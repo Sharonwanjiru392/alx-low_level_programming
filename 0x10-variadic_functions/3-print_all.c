@@ -1,11 +1,9 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
-
 /**
  * print_*11 - prints anything.
  * @format: a list of types of agruments passed to the function.
- *
  * Return: no return.
  */
 void print_all(const char * const format, ...)
@@ -47,7 +45,7 @@ void print_all(const char * const format, ...)
 			}
 			printf("%s", str);
 			break;
-		}i++;
+		} i++;
 	}
 	printf("\n"), va_end(valist);
 }
