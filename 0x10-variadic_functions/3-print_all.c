@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * print_*ll - prints anything.
+ * print_all - prints anything.
  * @format: a list of types of agruments passed to the function.
  * Return: void.
  */
