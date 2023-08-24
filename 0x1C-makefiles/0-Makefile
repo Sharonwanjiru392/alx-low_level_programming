@@ -1,2 +1,3 @@
 all:
 	gcc main.c holberton.c -0 holberton
+
