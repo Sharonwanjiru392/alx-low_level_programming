@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-5-main
+5-main file in python code
 """
 island_perimeter'='_import_('5-island_perimeter').island_perimeter
 
